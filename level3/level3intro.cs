@@ -11,7 +11,7 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Please enter your age:");
-        int age = Console.ReadLine();
+        int age = int.Parse(Console.ReadLine());
 
         // this is checking if the variable age is greater than or equal to 18
         if (age >= 18)

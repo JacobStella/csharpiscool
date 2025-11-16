@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine("Jacob is super cool and awesome!");
 
     }
 }

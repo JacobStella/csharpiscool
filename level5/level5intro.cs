@@ -19,7 +19,7 @@ class Program
     // functions are formatted as follows:
     // returnType functionName(parameterType parameterName, ...)
     // int        add         (int x, int y)
-    int add(int x, int y)
+    static int add(int x, int y)
     {
         return x + y;
     }

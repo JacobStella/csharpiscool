@@ -10,6 +10,50 @@ class Program
 {
     static void Main(string[] args)
     {
-        
+        int a = 6;
+        int squarer = square(a);
+        Console.WriteLine("The square of " + a + " is " + squarer);
+
+        bool booling = isEven(a);
+        if (booling)
+        {
+            Console.WriteLine("Is Even!");
+        }
+        else
+        {
+            Console.WriteLine("Is False!");
+        }
+
     }
+
+
+
+
+    static int square(int x)
+    {
+        return x * x;
+    }
+
+    static bool isEven(int y)
+    {
+        if (y % 2 == 0)
+        {
+            return true;
+        }
+        else 
+        {
+            return false;
+        }
+    }
+
+
+
+
+
+
+
+
 }
+
+
+

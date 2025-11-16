@@ -5,5 +5,19 @@ class Program
     static void Main(string[] args)
     {
         string[] names = { "Alice", "Bob", "Charlie", "Jacob", "Eve" };
+        int i = 0;
+        for (i = 0; i < names.Length; i++)
+        {
+            if (names[i] == "Jacob")
+            {
+                Console.WriteLine("Jacob is super cool and awesome!");
+            }
+            else
+            {
+                Console.WriteLine("Name" + (i + 1) + ": " + names[i]);
+            }
+                   
+        }
+    Console.WriteLine(i);
     }
-}
+}    
